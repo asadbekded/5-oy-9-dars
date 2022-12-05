@@ -1,10 +1,28 @@
 {
   "posts": [
     {
-      "id": 1,
-      "userId": 1,
-      "title": "Dasturchi",
-      "body": "lorem"
+      "userId": 5,
+      "title": "Asadbek",
+      "body": "ded",
+      "id": 1
+    },
+    {
+      "userId": 5,
+      "title": "Sardor",
+      "body": "fdsvfsuduvshdus",
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "title": "Sardor",
+      "body": "fdsvfsuduvshdus",
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "title": "Sardor",
+      "body": "fdsvfsuduvshdus",
+      "id": 4
     }
   ],
   "users": [
