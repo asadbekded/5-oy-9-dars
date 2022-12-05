@@ -1,0 +1,14 @@
+.overlay{
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #00000066;
+}
+.just{
+   border-radius: 30px;
+}

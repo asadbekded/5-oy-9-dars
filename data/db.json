@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Dasturchi",
+      "body": "lorem"
+    }
+  ],
+  "users": [
+    {
+      "email": "asad@gmail.com",
+      "password": "$2a$10$ZQHh5YjpJ6AGCe5H3Gf/A.i9eH8.NV0zeUKY3zNiZrnOLwI1g7YRG",
+      "firstname": "Ergashev",
+      "lastname": "Asadbek",
+      "id": 1
+    },
+    {
+      "email": "sardor@gmail.com",
+      "password": "$2a$10$FCfJUTugazvivLqRk3/KTeydyGEhoYzq.gYvN2S/30Q04PqI7bZ/i",
+      "firstname": "Ergashev",
+      "lastname": "Sardorbek",
+      "id": 2
+    },
+    {
+      "email": "sulton@gmail.com",
+      "password": "$2a$10$alkfpIrvJN4zXC5xJH8tfum9xByRFjWmHfwlI7tOYkTzHSeCgeP/y",
+      "firstname": "Mahkambekov",
+      "lastname": "Sultonbek",
+      "id": 3
+    },
+    {
+      "email": "ded@gmail.com",
+      "password": "$2a$10$6uJ2wCVSvi9maWySomKhTetRDXROZsNG3jps4V4JRH8vHugEougPy",
+      "firstname": "Ded",
+      "lastname": "Asadbek",
+      "id": 4
+    },
+    {
+      "email": "sar@gmail.com",
+      "password": "$2a$10$mAqrPE5XZlGLP2/O89yNkunKKyyfm1YdhBZ85fwce1QStzZXbGS2y",
+      "firstname": "Usmonov",
+      "lastname": "Sardor",
+      "id": 5
+    }
+  ]
+}
