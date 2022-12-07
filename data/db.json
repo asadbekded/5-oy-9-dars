@@ -1,28 +1,22 @@
 {
   "posts": [
     {
-      "userId": 5,
-      "title": "Asadbek",
-      "body": "ded",
-      "id": 1
+      "userId": 6,
+      "title": "React hooks turlari",
+      "body": "Hooks don’t replace your knowledge of React concepts. Instead, Hooks provide a more direct API to the React concepts you already know: props, state, context, refs, and lifecycle. As we will show later, Hooks also offer a new powerful way to combine them.  If you just want to start learning Hooks, feel free to jump directly to the next page! You can also keep reading this page to learn more about why we’re adding Hooks, and how we’re going to start using them without rewriting our applications.",
+      "id": 8
     },
     {
-      "userId": 5,
-      "title": "Sardor",
-      "body": "fdsvfsuduvshdus",
-      "id": 2
+      "userId": 6,
+      "title": "JavaScript functions",
+      "body": "A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().  Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).  The parentheses may include parameter names separated by commas: (parameter1, parameter2, ...)  The code to be executed, by the function, is placed inside curly brackets: {}A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().  Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).  The parentheses may include parameter names separated by commas: (parameter1, parameter2, ...)  The code to be executed, by the function, is placed inside curly brackets: {}",
+      "id": 9
     },
     {
-      "userId": 5,
-      "title": "Sardor",
-      "body": "fdsvfsuduvshdus",
-      "id": 3
-    },
-    {
-      "userId": 5,
-      "title": "Sardor",
-      "body": "fdsvfsuduvshdus",
-      "id": 4
+      "userId": 6,
+      "title": "Taiwand CSS",
+      "body": "asdfghjkl;qwertyuiop[xcvbnm,.",
+      "id": 11
     }
   ],
   "users": [
@@ -60,6 +54,13 @@
       "firstname": "Usmonov",
       "lastname": "Sardor",
       "id": 5
+    },
+    {
+      "email": "ziyo@gmail.com",
+      "password": "$2a$10$nDtOZwa9qizsf8fB9EBN.e2SrfZkajzGDf0aOUMbF4XiiGMpEWl2S",
+      "firstname": "Ziyovuddin",
+      "lastname": "Ergashev",
+      "id": 6
     }
   ]
 }

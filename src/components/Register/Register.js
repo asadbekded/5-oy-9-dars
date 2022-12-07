@@ -7,8 +7,8 @@ import { UserContext } from "../../context/UserContext";
 
 export const Register = () => {
 
-  const { token, setToken } = useContext(AuthContext);
-  const { me, setMe } = useContext(UserContext);
+  const { setToken } = useContext(AuthContext);
+  const { setMe } = useContext(UserContext);
 
   const navigate = useNavigate()
 

@@ -4,14 +4,13 @@ import { Modal } from "../../components/Modal/Modal";
 import { Input } from "../../components/Input/Input";
 import { useContext } from "react";
 import { UserContext } from "../../context/UserContext";
+import { PostCard } from "../../components/PostCard/PostCard";
 
 export const Posts = () => {
 
    const { me } = useContext(UserContext);
-
    const titleRef = useRef();
    const bodyRef = useRef();
-
    const [ modal, setModal ] = useState(false);
    const [ posts, setPosts ] = useState({});
 
@@ -20,7 +19,7 @@ export const Posts = () => {
       axios.get("http://localhost:8080/posts")
       .then(res => setPosts(res.data))
       .catch(err => console.log(err))
-   }, [])
+   }, [posts])
 
    const handleAddPost = (evt) => {
       evt.preventDefault()
@@ -30,7 +29,11 @@ export const Posts = () => {
          title: titleRef.current.value,
          body: bodyRef.current.value,
       })
-      .then(res => console.log(res))
+      .then(res => {
+         if(res.status === 201){
+            setModal(false);
+         }
+      })
       .catch(err => console.log(err))
    }
 
@@ -42,22 +45,20 @@ export const Posts = () => {
       {
          posts.length ? <ul className="p-0 m-0 mt-4">
          {
-            posts.map((el) =>(
-            <li key={el.title} className="d-flex align-items-center w-50 shadow p-3 mb-2">
-               <h4>{el.title}</h4>
-               <h5 className="ms-4">{el.body}</h5>
-            </li>))
+            posts.map((item) =>(
+               <PostCard key={item.id} item={item} />
+            ))
          }
          </ul>: <h2>Loading...</h2>
       }
 
-      {modal && <Modal modal={modal} setModal={setModal} >
+      {modal && (<Modal modal={modal} setModal={setModal} title='Add'>
          <form onSubmit={handleAddPost} className="mt-4">
             <Input ref={titleRef} type="text" placeholder="Title"/>
             <Input ref={bodyRef} type="text" placeholder="Body"/>
             <button className="btn btn-primary">POST</button>
          </form>
-      </Modal>}
+      </Modal>)}
     </div>
   )
 }
