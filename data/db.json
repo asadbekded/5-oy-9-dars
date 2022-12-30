@@ -13,10 +13,10 @@
       "id": 9
     },
     {
-      "userId": 6,
-      "title": "Taiwand CSS",
-      "body": "asdfghjkl;qwertyuiop[xcvbnm,.",
-      "id": 11
+      "userId": 9,
+      "title": "Stylecomponent",
+      "body": "Automatic critical CSS: styled-components keeps track of which components are rendered on a page and injects their styles and nothing else, fully automatically. Combined with code splitting, this means your users load the least amount of code necessary.",
+      "id": 10
     }
   ],
   "users": [
@@ -61,6 +61,34 @@
       "firstname": "Ziyovuddin",
       "lastname": "Ergashev",
       "id": 6
+    },
+    {
+      "email": "sunnat@gmail.com",
+      "password": "$2a$10$2bwM8p/8Kz2aOgRLFaW3c.dkyAR9xz9avWadETAab2QZOLErRfE7.",
+      "firstname": "Fayzullayev",
+      "lastname": "Sunnat",
+      "id": 7
+    },
+    {
+      "email": "laaziz@gmail.com",
+      "password": "$2a$10$rfYNREvkkhpY5dtque3aGeGSl0HYXxS55h4rn1eNscS7BF6O1CGjq",
+      "firstname": "Azizov",
+      "lastname": "Laziz",
+      "id": 8
+    },
+    {
+      "email": "mahkam@gmail.com",
+      "password": "$2a$10$D8Boxy6TZSxxlom5fi5OX.6HPF3qYXh/4Hs7TdkgZkSRm3hN3hgne",
+      "firstname": "Mahkambekov",
+      "lastname": "Laziz",
+      "id": 9
+    },
+    {
+      "email": "jova@gmail.com",
+      "password": "$2a$10$Itf03VEeaFKNdzbTiOV1EOWF4XO3tGYl6BoBLj4X7AS3NppnAQ812",
+      "firstname": "Botirov",
+      "lastname": "Javoxir",
+      "id": 10
     }
   ]
 }
